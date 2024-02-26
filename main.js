@@ -17,6 +17,11 @@ function calculate(number1, number2, operation) {
       return number1 - number2;
     case "*":
       return number1 * number2;
+      case "**":
+      return number1 ** number2;
+
+    case "%":
+      return number1 % number2;
     case "/":
       if (number2 !== 0) {
         return number1 / number2;
